@@ -21,6 +21,8 @@
             width: 100%;
             padding-bottom: 50px;
             min-height: 100vh; /* Ensure it takes at least full viewport height */
+            background: url('red.gif') no-repeat center center fixed; /* GIF background for the whole container */
+            background-size: cover; /* Ensures the GIF covers the container */
         }
         .header {
             text-align: center;
@@ -49,8 +51,7 @@
             margin-top: 20px;
         }
         .project-box {
-            background: url('red.gif') no-repeat center center;
-            background-size: cover; /* Ensures the GIF covers the entire container */
+            background: #7a0000; /* Plain red background for project boxes */
             padding: 30px;
             margin: 50px auto;
             width: 60%;
@@ -94,17 +95,17 @@
             <h2 style="background-color:#3d0000; padding: 25px;">Past Projects:</h2>
 
             <div class="project-box">
-                <h3>SHS UI for Research</h3>
+                <h3 style="background-color:#3d0000; padding: 25px;">SHS UI for Research</h3>
                 <img src="homescreen.jpg" alt="SHS UI - Image 1">
                 <img src="login.jpg" alt="SHS UI - Image 2">
                 <img src="surfpage.jpg" alt="SHS UI - Image 3">
             </div>
             <div class="project-box">
-                <h3>Color Game</h3>
+                <h3 style="background-color:#3d0000; padding: 25px;">Color Game</h3>
                 <img src="cg.png" alt="Color Game">
             </div>
             <div class="project-box">
-                <h3>Calculator</h3>
+                <h3 style="background-color:#3d0000; padding: 25px;">Calculator</h3>
                 <img src="calc.png" alt="Calculator">
             </div>
         </div>
@@ -120,4 +121,3 @@
     </footer>
 </body>
 </html>
-
