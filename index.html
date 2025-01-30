@@ -11,24 +11,22 @@
             box-sizing: border-box;
         }
         body {
-            background: #5c0000; /* Red background for the body */
+            background: #283137; /* Updated color for the container */
             font-family: Arial, sans-serif;
             color: white;
         }
         .container {
             margin-top: 25px;
-            background: #280137;
+            background: #280137; /* Updated container color */
             width: 100%;
             padding-bottom: 50px;
             min-height: 100vh; /* Ensure it takes at least full viewport height */
-            background: url('purpcastle.gif') no-repeat center center fixed; /* GIF background for the whole container */
-            background-size: cover; /* Ensures the GIF covers the container */
         }
         .header {
             text-align: center;
             padding: 40px 20px;
-            background: url('purp.gif') no-repeat center center fixed; /* Cat image as background for header */
-            background-size: cover; /* Make sure it covers the whole header */
+            background: url('purp.gif') no-repeat center center fixed; /* Header background */
+            background-size: cover;
         }
         .header img {
             width: 137px;
@@ -39,7 +37,7 @@
             font-size: 32px;
         }
         .about {
-            background: #3d0000;
+            background: #6d1371; /* Updated red */
             padding: 50px;
             text-align: center;
             margin: 20px auto;
@@ -51,11 +49,16 @@
             margin-top: 20px;
         }
         .project-box {
-            background: #7a0000; /* Plain red background for project boxes */
+            background: url('purpcastle.gif') no-repeat center center fixed; /* Project boxes background */
+            background-size: cover;
             padding: 30px;
             margin: 50px auto;
             width: 60%;
             border-radius: 10px;
+        }
+        .project-box h3 {
+            background: #6d1371; /* Updated red */
+            padding: 25px;
         }
         .project-box img {
             width: 100%;
@@ -65,7 +68,7 @@
         }
         .contact {
             text-align: center;
-            background: #3d0000;
+            background: #6d1371; /* Updated red */
             padding: 20px;
             margin-top: 100px;
             border-radius: 10px;
@@ -75,7 +78,7 @@
         }
         footer {
             text-align: center;
-            background: #220000;
+            background: #6d1371; /* Updated red */
             padding: 15px;
             font-size: 14px;
         }
@@ -92,20 +95,20 @@
             <p>I am a student at Cavite State University – Silang Campus, studying under the Bachelor of Science in Information Technology course. You'll find me in BSIT 1C. I specialize in front-end development.</p>
         </div>
         <div class="projects">
-            <h2 style="background-color:#3d0000; padding: 25px;">Past Projects:</h2>
+            <h2 style="background-color:#6d1371; padding: 25px;">Past Projects:</h2>
 
             <div class="project-box">
-                <h3 style="background-color:#3d0000; padding: 25px;">SHS UI for Research</h3>
+                <h3>SHS UI for Research</h3>
                 <img src="homescreen.jpg" alt="SHS UI - Image 1">
                 <img src="login.jpg" alt="SHS UI - Image 2">
                 <img src="surfpage.jpg" alt="SHS UI - Image 3">
             </div>
             <div class="project-box">
-                <h3 style="background-color:#3d0000; padding: 25px;">Color Game</h3>
+                <h3>Color Game</h3>
                 <img src="cg.png" alt="Color Game">
             </div>
             <div class="project-box">
-                <h3 style="background-color:#3d0000; padding: 25px;">Calculator</h3>
+                <h3>Calculator</h3>
                 <img src="calc.png" alt="Calculator">
             </div>
         </div>
